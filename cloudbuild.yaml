@@ -4,4 +4,4 @@ steps:
 - name: 'google/cloud-sdk'
   entrypoint: 'gsutil'
   args: ['cp', '-r', 'flask_crud', 'gs://tf_test_bucket1']
-  dirs: 'flask_crud'  
+  dir: 'flask_crud'  
