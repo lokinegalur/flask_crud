@@ -3,5 +3,4 @@ steps:
   args: ['clone', 'https://github.com/lokinegalur/flask_crud.git'] 
 - name: 'google/cloud-sdk'
   entrypoint: 'gsutil'
-  args: ['cp', '-r', 'flask_crud', 'gs://tf_test_bucket1']
-  dir: 'flask_crud'  
+  args: ['cp', '-r', 'flask_crud', 'gs://tf_test_bucket1']  
